@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar SetInterval</title>
+
+    <!-- tailwind -->
+    <script src="js/browser@4.js"></script>
+</head>
+
+<body class="text-gray-700">
+
+    <!-- start navbar section -->
+    <div class="h-16">
+        <header id="navbar" class="bg-gray-100 w-full z-10 shadow-sm">
+            <nav class="container mx-auto px-4 h-16 flex items-center gap-5 text-sm">
+                <a href="#" class="font-bold text-gray-900">Navbar</a>
+                <a href="#" class="text-gray-900">Home</a>
+                <a href="#" class="text-gray-500 max-md:hidden">Link</a>
+                <a href="#" class="text-gray-500 max-md:hidden">Menu</a>
+                <a href="#" class="text-gray-300 max-md:hidden">Disabled</a>
+                <input type="search" placeholder="Search"
+                    class="flex-1 min-w-0 bg-white border border-gray-300 rounded-lg px-3 py-2">
+                <button class="bg-gray-200 text-gray-500 rounded-lg px-4 py-2">Search</button>
+            </nav>
+        </header>
+    </div>
+    <!-- end navbar section -->
+
+
+    <!-- start setInterval section -->
+    <section class="container mx-auto px-4 mt-8">
+        <h3 id="demo" class="text-2xl font-semibold mb-3">Lorem ipsum dolor sit amet.</h3>
+        <button id="stop" class="border border-gray-400 bg-gray-100 px-3 py-1">stop</button>
+    </section>
+    <!-- end setInterval section -->
+
+    <!-- start setTimeout section -->
+    <section class="container mx-auto px-4 mt-12">
+        <h3 id="demo2" class="text-2xl font-semibold mb-3">Lorem ipsum dolor sit amet.</h3>
+        <button id="click" class="border border-gray-400 bg-gray-100 px-3 py-1">click</button>
+        <button id="stop2" class="border border-gray-400 bg-gray-100 px-3 py-1">stop</button>
+    </section>
+    <!-- end setTimeout section -->
+
+
+    <!-- start long section -->
+    <section class="container mx-auto px-4 mt-12 h-[1500px]"></section>
+    <!-- end long section -->
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
